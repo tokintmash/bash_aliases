@@ -1,0 +1,40 @@
+# Safer file operations
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# Better ls output
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Clear screen
+alias cls='clear'
+
+# Update & upgrade system
+alias update='sudo apt update && sudo apt upgrade -y && brew upgrade'
+alias cleanup='sudo apt autoremove && sudo apt autoclean'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gp='git push'
+alias gl='git log --oneline --graph --all'
+
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias home='cd ~'
+alias docs='cd ~/Documents'
+
+# Networking
+alias ports='netstat -tuln'         # List open ports
+alias myip='curl ifconfig.me'       # Get public IP
+
+# Misc
+alias hist='history | less'
+alias pingg='ping google.com'
+
+# Reload aliases without restarting terminal
+alias reload='source ~/.bash_aliases'
