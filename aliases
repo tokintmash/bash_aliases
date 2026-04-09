@@ -36,5 +36,8 @@ alias myip='curl ifconfig.me'       # Get public IP
 alias hist='history | less'
 alias pingg='ping google.com'
 
+# Python virtual env
+alias venvact='source venv/bin/activate'
+
 # Reload aliases without restarting terminal
 alias reload='source ~/.bash_aliases'
