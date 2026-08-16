@@ -9,6 +9,8 @@ inoremap ' ''<Left>
 inoremap < <><Left>
 
 " Wrap Visual-mode selections
+" Use iw or e to wrap without trailing space
+" Use aw to include trailing space
 xnoremap ( <Esc>`>a)<Esc>`<i(<Esc><End>
 xnoremap [ <Esc>`>a]<Esc>`<i[<Esc><End>
 xnoremap { <Esc>`>a}<Esc>`<i{<Esc><End>
